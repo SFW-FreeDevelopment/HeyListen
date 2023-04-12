@@ -83,8 +83,6 @@ public static class Etl
             return null;
         }
 
-        var releaseDate = GetDateTimeFromReleaseDate(apiGame.ReleasedDate);
-
         return new Game
         {
             Name = apiGame.Name,
@@ -95,7 +93,7 @@ public static class Etl
             {
                 new()
                 {
-                    Date = new DateOnly(releaseDate.Year, releaseDate.Month, releaseDate.Day),
+                    Date = GetDateTimeFromReleaseDate(apiGame.ReleasedDate),
                     Region = "Japan"
                 }
             }
