@@ -51,7 +51,7 @@ public abstract class BaseRepository<T> where T : Resource
 
     protected IMongoCollection<T> GetCollection()
     {
-        var database = _mongoClient.GetDatabase("kumibot");
+        var database = _mongoClient.GetDatabase("heylisten");
         var collection = database.GetCollection<T>(CollectionName);
         return collection;
     }
