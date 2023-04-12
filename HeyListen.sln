@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeyListen.ETL", "HeyListen.ETL\HeyListen.ETL.csproj", "{392C9646-3C9D-4348-9F75-11A6F9487558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeyListen.Database", "HeyListen.Database\HeyListen.Database.csproj", "{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392C9646-3C9D-4348-9F75-11A6F9487558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392C9646-3C9D-4348-9F75-11A6F9487558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392C9646-3C9D-4348-9F75-11A6F9487558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392C9646-3C9D-4348-9F75-11A6F9487558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
