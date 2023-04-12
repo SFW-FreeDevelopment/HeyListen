@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeyListen.ETL", "HeyListen.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeyListen.Database", "HeyListen.Database\HeyListen.Database.csproj", "{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeyListen.Web", "HeyListen.Web\HeyListen.Web.csproj", "{71E347FF-27E6-49AA-8FAC-408198D31154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C674A4-F3D9-46F7-BDCE-7C1C308659DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E347FF-27E6-49AA-8FAC-408198D31154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E347FF-27E6-49AA-8FAC-408198D31154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E347FF-27E6-49AA-8FAC-408198D31154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E347FF-27E6-49AA-8FAC-408198D31154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
