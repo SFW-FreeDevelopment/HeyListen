@@ -20,4 +20,10 @@ public class GameController : ControllerBase
     {
         return await _gameRepository.GetAll();
     }
+    
+    [HttpGet("{id:guid}")]
+    public async Task<Game> Get(Guid id)
+    {
+        return await _gameRepository.GetById(id);
+    }
 }
