@@ -10,6 +10,6 @@ export class HomeComponent {
   public games: Game[] = [];
 
   constructor(gameService: GameService) {
-    this.games = gameService.get();
+    gameService.get().subscribe(data => this.games = data)
   }
 }

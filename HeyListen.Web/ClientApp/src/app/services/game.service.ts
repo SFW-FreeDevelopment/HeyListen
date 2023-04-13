@@ -1,6 +1,7 @@
 import {HttpClient} from "@angular/common/http";
 import {Inject, Injectable} from "@angular/core";
 import {Game} from "../models/game"
+import {Observable} from "rxjs";
 
 @Injectable({
   providedIn: 'root',
@@ -15,10 +16,7 @@ export class GameService {
     this.baseUrl = baseUrl;
   }
 
-  get(): Game[] {
-    this.client.get<Game[]>(this.baseUrl + 'games').subscribe(result => {
-      this.games = result;
-    }, error => console.error(error));
-    return this.games;
+  get(): Observable<Game[]> {
+    return this.client.get<Game[]>(this.baseUrl + 'games');
   }
 }
