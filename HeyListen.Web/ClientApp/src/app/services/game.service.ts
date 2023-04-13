@@ -7,8 +7,7 @@ import {Observable} from "rxjs";
   providedIn: 'root',
 })
 export class GameService {
-  private games: Game[] = [];
-  private baseUrl: string = '';
+  private readonly baseUrl: string = '';
   private client: HttpClient;
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
